@@ -1,0 +1,19 @@
+Source: google-docs-viewer
+Section: web
+Priority: extra
+Maintainer: Geoffrey Thomas <geofft@mit.edu>
+Build-Depends: debhelper (>= 5), cdbs
+Vcs-Git: http://github.com/geofft/google-docs-viewer/
+Standards-Version: 3.8.4
+
+Package: google-docs-viewer
+Architecture: all
+Depends: python (>= 2.4), ${misc:Depends}
+Provides: pdf-viewer
+Description: Opens PDFs and PPTs with Google Docs' viewer
+ Google Docs provides an online viewer at http://docs.google.com/viewer
+ that can display PDFs, PPTs, and other formats of documents. This
+ package contains a simple command-line utility to use that viewer, and
+ sets up MIME-type associations for this utility.
+ .
+ This is handy for not having a locally installed PDF or PPT viewer.

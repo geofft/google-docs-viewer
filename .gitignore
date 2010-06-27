@@ -1,0 +1,4 @@
+debian/files
+debian/google-docs-viewer.debhelper.log
+debian/google-docs-viewer.substvars
+debian/google-docs-viewer/*
