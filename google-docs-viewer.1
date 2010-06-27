@@ -1,0 +1,16 @@
+.TH google-docs-viewer 1 "27 June 2010"
+.SH NAME
+google-docs-viewer \- opens the specified URL with Google Docs' PDF viewer
+.SH SYNOPSIS
+.B google-docs-viewer
+[\fIoptions\fR] \fI<URL>\fR
+.SH DESCRIPTION
+Opens the specified URL with the Google Docs online viewer at http://docs.google.com/viewer.
+The browser is taken from the BROWSER environment variable, and defaults to
+.B sensible-browser
+if not specified.
+.TP
+\fB\-e\fR, \fB\-\-embedded\fR
+Use the 'embedded' interface without a sidebar.
+.SH AUTHOR
+Geoffrey Thomas <geofft@mit.edu>
